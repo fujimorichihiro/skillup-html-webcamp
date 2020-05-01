@@ -4,18 +4,32 @@
    padding: 0;
    box-sizing: border-box;
 }
-
+.clearfix::after {
+	content:"";
+	display: block;
+	clear: both;
+}
+/*共有部分*/
 .no-decoration {
 	text-decoration: none;
 }
 .white {
 	color: #FAFAFA;
 }
+.black {
+	color: #000000;
+}
 .font62 {
 	font-size: 62px;
 }
-.font32 {
+.contents-title {
 	font-size: 32px;
+	margin-bottom: 8px;
+}
+.contents-explanation {
+	font-size: 16px;
+	color: #000000;
+	margin: 30px  auto;
 }
 .font20 {
     font-size: 20px;
@@ -23,9 +37,35 @@
 .fon16 {
 	font-size: 16px;
 }
-.margin10 {
+.m10 {
 	margin: 10px;
 }
+
+.red-line {
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	color: #EC715F;
+	margin: 0 auto;
+}
+.contents-box {
+	margin: 0 auto;
+	padding: 90px 0;
+	text-align: center;
+}
+.w920 {
+	width:920px;
+}
+.w980 {
+	width:920px;
+}
+.w1024 {
+	width:920px;
+}
+.w800 {
+	width:920px;
+}
+
 
 header {
 	background-color: #EC715F;
@@ -64,14 +104,46 @@ header nav li {
 	text-align: center;
 	padding-top: 200px;
 }
-
+/*Portfolio*/
 #portfolio {
-	height: 300px;
 	background-color: #ECEFF1;
 }
+/*portfolio-image*/
+.img1 {
+	background-image: url(img/sketch.jpg);
+}
+.img2 {
+	background-image: url(img/websuku.png);
+}
+.img3 {
+	background-image: url(img/write.jpg);
+}
+.img4 {
+	background-image: url(img/webcamp.png);
+}
+.img5 {
+	background-image: url(img/talk.jpg);
+}
+.img6 {
+	background-image: url(img/webcamp-mother.png);
+}
+.image {
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.image:nth-child(3n+2) {
+	margin: 0 10px;
+}
+.image-box1 {
+	margin-bottom: 10px;
+}
+
+/*Feature*/
 #feature {
 	height: 300px;
-	background-color: #000;
 }
 #profile {
 	height: 300px;
@@ -79,7 +151,6 @@ header nav li {
 }
 #contact {
 	height: 300px;
-	background-color: #000;
 }
 
 footer {
@@ -92,3 +163,4 @@ footer {
 	font-size: 16px;
 	color: #FAFAFA;
 }
+
