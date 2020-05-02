@@ -296,6 +296,9 @@ footer {
     .profile-title1 {
     	margin: 20px 0 5px 0;
     }
+    .contact-box {
+    	width: 100%;
+    }
     .contact-box2 {
     	text-align: center;
     }
@@ -304,5 +307,21 @@ footer {
     }
     .mb20 {
     	margin-bottom: 20px;
+    }
+    /*==hunburger==*/
+    .hamburger {
+    	border :1px solid white;
+    	width:40px;
+    	height: 40px;
+    	position: absolute;
+    	top: 5px;
+    	right: 5px;
+    	padding-top: 5px;
+    }
+    .putty {
+    	background-color: white;
+    	width: 30px;
+    	height: 2px;
+    	margin: 4px auto;
     }
 }
