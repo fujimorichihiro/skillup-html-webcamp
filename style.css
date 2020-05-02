@@ -282,4 +282,27 @@ footer {
     .img4 {
     	margin: 10px 0;
     }
+    /* FEATURE*/
+    .feature-box {
+	    width: 100%;;
+    }
+    .feature-box:nth-child(2n) {
+	    margin: 10px 0;
+    }
+    .profile-box {
+    	width: 100%;
+    	text-align: center;
+    }
+    .profile-title1 {
+    	margin: 20px 0 5px 0;
+    }
+    .contact-box2 {
+    	text-align: center;
+    }
+    .sns-icon:nth-child(2n) {
+    	margin:0 8px;
+    }
+    .mb20 {
+    	margin-bottom: 20px;
+    }
 }
