@@ -197,8 +197,31 @@ header nav li {
 .profile-text {
 	font-size: 16px;
 }
-
+/*Contact*/
 #contact {
+}
+.center {
+	margin: 0 auto;
+}
+.contact-box {
+	width:400px;
+	float: left;
+}
+.contact-box2 {
+	display: inline-block;
+	text-align: left;
+}
+.contact1 {
+	margin-bottom: 5px;
+}
+.contact2 {
+	margin: 20px 0 5px 0;
+}
+.sns-icon{
+	font-size: 50px;
+}
+.sns-icon:nth-child(2n) {
+	margin:0 20px;
 }
 
 footer {
