@@ -76,7 +76,7 @@
 .icon60 {
 	font-size: 60px;
 }
-
+/*header*/
 header {
 	background-color: #EC715F;
 	height: 70px;
@@ -124,6 +124,7 @@ header nav li {
 }
 .img2 {
 	background-image: url(img/websuku.png);
+	margin: 0 10px;
 }
 .img3 {
 	background-image: url(img/write.jpg);
@@ -133,6 +134,7 @@ header nav li {
 }
 .img5 {
 	background-image: url(img/talk.jpg);
+	margin: 0 10px;
 }
 .img6 {
 	background-image: url(img/webcamp-mother.png);
@@ -143,9 +145,6 @@ header nav li {
 	background-size: cover;
 	background-position: center;
 	float: left;
-}
-.image:nth-child(3n+2) {
-	margin: 0 10px;
 }
 .image-box1 {
 	margin-bottom: 10px;
@@ -235,3 +234,52 @@ footer {
 	color: #FAFAFA;
 }
 
+/*-----------------Devise-Width <= 767px---------------------*/
+@media screen and (max-width:767px) {
+	/*header部分*/
+	header {
+		height: 50px;
+	}
+	header .box {
+		width: 90%;
+	}
+	.logo-image {
+	height: 50px;
+	width: 100px;
+    }
+    header nav {
+    	display: none;
+    }
+    #main-visual {
+    	width:  100%;
+    	background-image: url(img/code.png);
+    }
+    /*コンテンツ部分*/
+    .w920, .w980, .w1024, .w800 {
+    	width: 90%;
+    }
+    .font62 {
+    	font-size: 40px;
+    }
+    .image .feature-box, .profile-box, .contact-box{
+    	float: none;
+    }
+    .image-box1 {
+    	width: 300px
+    	margin: 0;
+    	display: inline-block;
+    }
+    .image-box2 {
+        width: 300px;
+    	display: inline-block;
+    }
+    .img1, .img3 ,.img5 {
+    	display: none;
+    }
+    .img2, .img6 {
+        margin: 0;
+    }
+    .img4 {
+    	margin: 10px 0;
+    }
+}
